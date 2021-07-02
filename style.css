@@ -1,0 +1,77 @@
+body {
+display: flex;
+justify-content: center;
+color: aliceblue;
+height: 100%;
+}
+
+.position{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.group {
+    border: 2px;
+}
+
+
+ .login {
+    
+     list-style-type: none;
+     background-color: rgb(144, 151, 149);
+     border-radius: 4px;
+     padding: 20px;
+     font-size: 10;
+     font-family: sans-serif;
+     flex: 1;
+     border: 2px rgb(31, 61, 211);
+     text-align: center;
+     
+ }   
+ .login a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(52, 53, 56);
+    background-color: rgb(164, 175, 161);
+    border: 1px solid rgb(80, 79, 79);
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.colorlg a{
+    background-color: rgb(83, 83, 131);
+}
+.option {
+    
+    background-color: rgb(83, 83, 131);
+    font-size: 12px;
+    font-family: Impact;
+    text-align: center;
+    padding: 5px;
+
+}
+.option a {
+    color: rgb(154, 154, 202);
+    text-decoration: none;
+    background-color: rgb(52, 53, 56);
+    border-radius: 5px; 
+}
+.align {
+    display: flex;
+    height: 80px;
+    background: rgb(243, 243, 243);
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.getapp {
+    text-align: center;
+    font-size: 14px;
+    font-family: Impact;
+    color: black;
+    background-color: rgb(243,243,243);
+    padding: 10px;
+}
